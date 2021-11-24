@@ -1,0 +1,37 @@
+body, html{
+    height: 100%;
+}
+
+.box-welcome{
+    background-image: url(../../imagens/desenvolvedor.jpg);
+    position: relative;
+    height: 553px;
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center;
+}
+
+#welcome h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 3rem;
+    letter-spacing: .1em;
+}
+
+#welcome h2{
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.8rem;
+    font-family: Helvetica, sans-serif;
+}
+
+.second-name{
+    color: #FF8C00;
+}
+
+.centralize{
+    text-align: center;
+}
