@@ -1,37 +1,55 @@
-body, html{
+body, html {
     height: 100%;
 }
 
-.box-welcome{
-    background-image: url(../../imagens/desenvolvedor.jpg);
+.box-welcome {
+    background-image: url(../../imagens/sol.jpeg);
     position: relative;
-    height: 553px;
-    opacity: 0.9;
+    height: 720px;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position:center;
+    background-position: center;
 }
 
-#welcome h1{
+#welcome h1 {
     color: #fff;
     text-transform: uppercase;
     font-weight: 800;
-    font-size: 3rem;
+    font-size: 4.5em;
     letter-spacing: .1em;
 }
 
-#welcome h2{
+#welcome h2 {
     color: #fff;
     font-weight: 400;
-    font-size: 1.8rem;
+    font-size: 1.8em;
     font-family: Helvetica, sans-serif;
 }
 
-.second-name{
+#welcome p {
+    margin-top: 40px;
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 300;
+}
+
+.first-name {
+    color: #A4D3EE;
+}
+
+.word-dev {
+    color: #FFFF00;
+}
+
+.second-name {
     color: #FF8C00;
 }
 
-.centralize{
+.teste{
+    text-align: start;
+}
+
+.centralize {
     text-align: center;
 }
