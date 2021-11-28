@@ -5,7 +5,7 @@ body, html {
 .box-welcome {
     background-image: url(../../imagens/27230.jpg);
     position: relative;
-    height: 720px;
+    height: 520px;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -13,21 +13,21 @@ body, html {
 }
 
 #welcome h1 {
-    color: #fff;
+    margin-top: 60px;
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: .1em;
 }
 
 #welcome h2 {
-    color: #fff;
+    color: #D3D3D3;
     font-weight: 400;
     font-family: Helvetica, sans-serif;
 }
 
 #welcome p {
     margin-top: 40px;
-    color: #fff;
+    color: #D3D3D3;
     font-size: 1.2em;
     font-weight: 300;
 }
@@ -45,29 +45,17 @@ body, html {
 }
 
 .first-name {
-    color: #A4D3EE;
-}
-
-.word-dev {
-    color: #FFFF00;
+    color: #EEE5DE;
 }
 
 .second-name {
     color: #FF8C00;
 }
 
-.teste {
-    text-align: start;
-}
-
-.centralize {
-    text-align: center;
-}
-
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     h2{
-        font-size: 1em;
+        font-size: 1.2em;
     }
 }
 
