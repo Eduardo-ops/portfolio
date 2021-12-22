@@ -52,16 +52,37 @@ body, html {
     color: #FF8C00;
 }
 
+p {
+    font-size: 1.2em;
+    color: #404044;
+    font-weight: 400;
+}
+
+#development h1 {
+    font-weight: 700;
+    font-size: 4.2em;
+    letter-spacing: 0.06em;
+    color: #FF8C00;
+}
+
+.btn-custom {
+    border: none;
+    padding: 20px 50px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: #363636;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    h2{
+    h2 {
         font-size: 1.2em;
     }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-    h2{
+    h2 {
         font-size: 1.2em;
     }
 }
