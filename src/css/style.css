@@ -55,11 +55,11 @@ body, html {
 p {
     font-size: 1.2em;
     color: #404044;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 #development h1 {
-    font-weight: 700;
+    font-weight: 800;
     font-size: 4.2em;
     letter-spacing: 0.06em;
     color: #FF8C00;
@@ -75,6 +75,15 @@ p {
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    #development h1 {
+        font-size: 1.8em;
+        font-weight: 800;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
     h2 {
         font-size: 1.2em;
     }
@@ -82,6 +91,15 @@ p {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+    #development h1 {
+        font-size: 1.8em;
+        font-weight: 800;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
     h2 {
         font-size: 1.2em;
     }
@@ -89,8 +107,13 @@ p {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+    #development h1 {
+        font-size: 2.1em;
+        font-weight: 800;
+    }
+
     h1 {
-        font-size: 4em;
+        font-size: 3em;
     }
 
     h2 {
