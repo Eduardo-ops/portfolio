@@ -9,6 +9,7 @@ body, html {
     background-size: cover;
     background-attachment: fixed;
     background-position: top;
+    padding-bottom: 280px;
 }
 
 .box-skills {
@@ -18,6 +19,17 @@ body, html {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    margin-top: 80px;
+}
+
+.skill-image {
+    width: 50px;
+    height: 50px;
+}
+
+#skills h3 {
+    font-size: 1.2em;
+    font-weight: 300;
 }
 
 #welcome h1 {
@@ -81,11 +93,16 @@ p {
     color: #363636;
 }
 
-#skills h1{
+#skills h1 {
     font-weight: 800;
     font-size: 4.2em;
     letter-spacing: 0.06em;
     color: #FF8C00;
+}
+
+.skill-item {
+    width: 190px;
+    text-align: center;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -95,7 +112,7 @@ p {
         font-weight: 800;
     }
 
-    #skills h1{
+    #skills h1 {
         font-size: 1.8em;
         font-weight: 800;
     }
@@ -109,6 +126,13 @@ p {
     }
 }
 
+@media (min-width: 375px) and (max-width: 576px) {
+    .skill-item {
+        width: 100%;
+        text-align: center;
+    }
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
     #development h1 {
@@ -116,7 +140,7 @@ p {
         font-weight: 800;
     }
 
-    #skills h1{
+    #skills h1 {
         font-size: 1.8em;
         font-weight: 800;
     }
@@ -137,7 +161,7 @@ p {
         font-weight: 800;
     }
 
-    #skills h1{
+    #skills h1 {
         font-size: 2.1em;
         font-weight: 800;
     }
