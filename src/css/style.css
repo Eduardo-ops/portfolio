@@ -66,8 +66,13 @@ body, html {
 p {
     font-size: 1.2em;
     color: #404044;
-    font-weight: 400;
+    font-weight: 300;
 }
+
+.row-custom {
+    margin-top: -80px;
+}
+
 
 #development h1 {
     font-weight: 800;
@@ -152,6 +157,10 @@ p {
         margin-top: -40px;
         font-size: 2.4em;
         font-weight: 900;
+    }
+
+    .row-custom {
+        margin-top: 0px;
     }
 
     h1 {
