@@ -10,7 +10,7 @@ body, html {
     background-size: cover;
     background-attachment: fixed;
     background-position: top;
-    padding-bottom: 280px;
+    padding-bottom: 160px;
 }
 
 .box-skills {
@@ -66,7 +66,7 @@ body, html {
 p {
     font-size: 1.2em;
     color: #404044;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 #development h1 {
@@ -127,20 +127,20 @@ p {
     #development h1 {
         margin-top: -30px;
         font-size: 2.4em;
-        font-weight: 800;
+        font-weight: 900;
     }
 
     #skills h1 {
         margin-top: -30px;
         font-size: 2.4em;
-        font-weight: 800;
+        font-weight: 900;
     }
 
-    .col-custom-primary{
+    .col-custom-primary {
         margin-top: -30px;
     }
 
-    .col-custom-secondary{
+    .col-custom-secondary {
         margin-top: -100px;
     }
 
@@ -151,7 +151,7 @@ p {
     #formation h1 {
         margin-top: -40px;
         font-size: 2.4em;
-        font-weight: 800;
+        font-weight: 900;
     }
 
     h1 {
