@@ -71,7 +71,6 @@ p {
 
 #development h1 {
     font-weight: 800;
-    font-size: 4.2em;
     letter-spacing: 0.06em;
     color: #FF8C00;
 }
@@ -86,7 +85,6 @@ p {
 
 #skills h1 {
     font-weight: 800;
-    font-size: 4.2em;
     letter-spacing: 0.06em;
     color: #FF8C00;
 }
@@ -98,7 +96,7 @@ p {
 
 #formation h1 {
     font-weight: 800;
-    font-size: 4.2em;
+    text-transform: uppercase;
     letter-spacing: 0.06em;
     color: #FF8C00;
 }
@@ -122,18 +120,37 @@ p {
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    .box-welcome {
+        padding-bottom: 80px;
+    }
+
     #development h1 {
-        font-size: 2em;
+        margin-top: -30px;
+        font-size: 2.4em;
         font-weight: 800;
     }
 
     #skills h1 {
-        font-size: 2em;
+        margin-top: -30px;
+        font-size: 2.4em;
         font-weight: 800;
     }
 
+    .col-custom-primary{
+        margin-top: -30px;
+    }
+
+    .col-custom-secondary{
+        margin-top: -100px;
+    }
+
+    .formation-content-text {
+        margin-top: -80px;
+    }
+
     #formation h1 {
-        font-size: 2em;
+        margin-top: -40px;
+        font-size: 2.4em;
         font-weight: 800;
     }
 
