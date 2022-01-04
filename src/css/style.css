@@ -123,12 +123,17 @@ p {
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     #development h1 {
-        font-size: 1.8em;
+        font-size: 2em;
         font-weight: 800;
     }
 
     #skills h1 {
-        font-size: 1.8em;
+        font-size: 2em;
+        font-weight: 800;
+    }
+
+    #formation h1 {
+        font-size: 2em;
         font-weight: 800;
     }
 
