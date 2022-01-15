@@ -84,11 +84,25 @@ p {
 }
 
 .btn-custom {
-    border: none;
+    border: 1px solid #7c25f8;
+    border-radius: 40px;
+    background: #7c25f8;
     padding: 20px 50px;
-    font-weight: 700;
-    letter-spacing: 0.06em;
-    color: #363636;
+    text-align: center;
+    letter-spacing: 0.1em;
+    transition: all 0.9s ease-out;
+    color: #fff;
+}
+
+.btn-custom:hover {
+    border: none;
+    border-radius: 40px;
+    background: #FF8C00;
+    padding: 20px 70px;
+    letter-spacing: 0.1em;
+    transition: all 0.5s ease-in;
+    transition-delay: 0.2s;
+    color: #fff;
 }
 
 #skills h1 {
@@ -136,21 +150,25 @@ p {
     margin-bottom: 0;
 }
 
-.card {
+.box-contact {
     border-radius: 25px;
+    width: 16rem;
+    transition: all 0.5s;
 }
 
-.card:hover {
+.box-contact:hover {
     background: #f8f9fa;
     cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s;
 }
 
-.card img {
+.box-contact img {
     height: 116px;
     border-radius: 20px 20px 0px 0px;
 }
 
-.card p {
+.box-contact p {
     font-size: 1em;
 }
 
@@ -184,8 +202,6 @@ footer a {
     font-size: 2em;
 }
 
-
-
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     .box-welcome {
@@ -212,6 +228,10 @@ footer a {
         text-transform: uppercase;
         font-size: 1em;
         font-weight: bold;
+    }
+
+    footer a {
+        padding: 5px;
     }
 
     h1 {
