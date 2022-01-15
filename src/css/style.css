@@ -136,6 +136,24 @@ p {
     margin-bottom: 0;
 }
 
+.card {
+    border-radius: 25px;
+}
+
+.card:hover {
+    background: #f8f9fa;
+    cursor: pointer;
+}
+
+.card img {
+    height: 116px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card p {
+    font-size: 1em;
+}
+
 
 #contact h1 {
     border-bottom: 2px solid #FF8C00;
@@ -145,21 +163,15 @@ p {
 }
 
 #contact h2 {
-
+    color: #8470FF;
     text-transform: uppercase;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: bold;
 }
 
-.contact-col-custom {
-    border-radius: 5px;
-    text-align: center;
-}
-
-.icon-contact {
-    border-bottom: 2px solid #FF8C00;
-    font-size: 3em;
-    color: #FF8C00;
+#contact a {
+    text-decoration: none;
+    border-radius: 20px;
 }
 
 footer a {
@@ -169,7 +181,6 @@ footer a {
 
 .icon-footer {
     color: #0dcaf0;
-
     font-size: 2em;
 }
 
@@ -216,6 +227,14 @@ footer a {
     .skill-item {
         width: 100%;
         text-align: center;
+    }
+
+    #welcome a {
+        margin: 4px;
+    }
+
+    footer a {
+        padding: 5px;
     }
 }
 
