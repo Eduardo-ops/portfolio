@@ -3,8 +3,30 @@ body, html {
     background-color: #E0FFFF;
 }
 
+.navbar {
+    background: rgba(255, 255, 255, 0.192);
+}
+
+.navbar .navbar-nav .nav-link {
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+    color: #000
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #FF8C00;
+}
+
+.navbar .navbar-toggler {
+    border-color: #000;
+}
+
+#welcome {
+    margin-top: 72px;
+}
+
 .box-welcome {
-    /* background-image: url(../../imagens/fundo.jpg); */
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
