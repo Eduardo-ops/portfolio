@@ -9,13 +9,14 @@ body, html {
 
 .navbar .navbar-nav .nav-link {
     text-decoration: none;
+    text-transform: uppercase;
     font-weight: bold;
     margin-right: 15px;
-    color: #000;
+    color: #404044;
 }
 
 .navbar .navbar-nav .nav-link:hover {
-    color: #FFF5EE;
+    color: #404044;
 }
 
 .navbar-toggler {
@@ -33,7 +34,8 @@ body, html {
 }
 
 #welcome {
-    margin-top: 70px;
+    margin-top: 160px;
+    margin-bottom: 75px;
 }
 
 .box-welcome {
@@ -71,7 +73,10 @@ body, html {
 
 #welcome h1 {
     margin-top: 60px;
-    color: #FFF5EE;
+    text-transform: uppercase;
+    font-size: 6em;
+    font-weight: 900;
+    letter-spacing: -0.05em;
 }
 
 #welcome h2 {
@@ -80,11 +85,9 @@ body, html {
     font-family: Helvetica, sans-serif;
 }
 
-#welcome p {
-    margin-top: 40px;
-    color: #D3D3D3;
+p {
     font-size: 1.2em;
-    font-weight: 300;
+    color: #404044;
 }
 
 #welcome a {
@@ -93,15 +96,15 @@ body, html {
     font-weight: 500;
 }
 
+.link-info{
+    color: #404044;
+    text-transform: uppercase;
+}
+
 .link-info:hover {
     color: #FF8C00;
     padding-bottom: 8px;
     border-bottom: 1px solid #FF8C00;
-}
-
-p {
-    font-size: 1.2em;
-    color: #404044;
 }
 
 .row-custom {
@@ -224,7 +227,7 @@ p {
     border-radius: 20px;
 }
 
-footer a {
+footer a{
     text-decoration: none;
     padding-right: 15px;
 }
