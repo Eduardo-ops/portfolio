@@ -8,13 +8,18 @@ body, html {
     src: url(../../Fontes/Xhers\ Regular.otf);
 }
 
+@font-face {
+    font-family: "Jonah";
+    src: url(../../Fontes/JonahAFYL-Light.ttf);
+}
+
 .navbar {
-    background: rgb(189, 94, 56);
+    background: rgba(189, 94, 56, 0.930);
 }
 
 .navbar .navbar-nav .nav-link {
     margin-right: 15px;
-    font-weight: 700;
+    /* font-weight: 700; */
     letter-spacing: 0.05rem;
     text-transform: uppercase;
 }
@@ -54,6 +59,10 @@ body, html {
 
 .content-center {
     text-align: center;
+}
+
+.navbar-brand {
+    font-family: Jonah;
 }
 
 #welcome h1 {
@@ -237,6 +246,14 @@ footer a {
 }
 
 @media (min-width: 375px) and (max-width: 576px) {
+    #welcome h1 {
+        font-size: 4em;
+    }
+
+    #welcome p {
+        font-size: 1.2em;
+    }
+
     h1 {
         font-size: 3em;
     }
@@ -252,6 +269,7 @@ footer a {
 
     #welcome a {
         margin: 4px;
+        font-size: 0.8em;
     }
 
     .box-welcome {
@@ -310,6 +328,18 @@ footer a {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+    #welcome h1 {
+        font-size: 4em;
+    }
+
+    #welcome p{
+        font-size: 1.1em;
+    }
+
+    #welcome a{
+        font-size: 1.1em;
+    }
+
     #development h1 {
         font-size: 2.1em;
     }
