@@ -3,15 +3,20 @@ body, html {
     background-color: #E0FFFF;
 }
 
+@font-face {
+    font-family: "Xhers";
+    src: url(../../Fontes/Xhers\ Regular.otf);
+}
+
 .navbar {
     background: rgb(189, 94, 56);
 }
 
 .navbar .navbar-nav .nav-link {
+    margin-right: 15px;
     font-weight: 700;
     letter-spacing: 0.05rem;
     text-transform: uppercase;
-    margin-right: 15px;
 }
 
 .navbar .navbar-nav .nav-link:hover {
@@ -54,10 +59,15 @@ body, html {
 #welcome h1 {
     margin-top: 60px;
     text-transform: uppercase;
-    font-size: 6em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 700;
-    letter-spacing: -0.05em;
+    font-size: 8em;
+    font-weight: bold;
+    font-family: Xhers;
+    letter-spacing: 0.01em;
+}
+
+#welcome p {
+    font-size: 1.3em;
+    font-weight: 600;
 }
 
 #welcome h2 {
@@ -74,12 +84,15 @@ p {
 #welcome a {
     text-decoration: none;
     margin-right: 20px;
-    font-weight: 500;
+    font-weight: 6600;
 }
 
 .link-info {
-    color: #404044;
+    font-size: 1.2em;
+    font-weight: bold;
     text-transform: uppercase;
+    letter-spacing: -0.02;
+    color: #404044;
 }
 
 .link-info:hover {
@@ -95,6 +108,7 @@ p {
 
 #development h1 {
     border-bottom: 2px solid #FF8C00;
+    text-transform: uppercase;
     letter-spacing: -0.04em;
     color: #FF8C00;
 }
@@ -123,6 +137,7 @@ p {
 
 #skills h1 {
     border-bottom: 2px solid #FF8C00;
+    text-transform: uppercase;
     letter-spacing: -0.04em;
     color: #FF8C00;
 }
@@ -134,6 +149,7 @@ p {
 
 #formation h1 {
     border-bottom: 2px solid #FF8C00;
+    text-transform: uppercase;
     letter-spacing: -0.04em;
     color: #FF8C00;
 }
@@ -154,6 +170,7 @@ p {
 
 #experience h1 {
     border-bottom: 2px solid #FF8C00;
+    text-transform: uppercase;
     letter-spacing: -0.04em;
     color: #FF8C00;
 }
@@ -191,6 +208,7 @@ p {
 
 #contact h1 {
     border-bottom: 2px solid #FF8C00;
+    text-transform: uppercase;
     margin-bottom: 80px;
     letter-spacing: -0.04em;
     color: #FF8C00;
@@ -322,11 +340,33 @@ footer a {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+    #welcome h1 {
+        font-size: 7em;
+    }
+
+    #welcome {
+        margin-top: 90px;
+    }
+
     h1 {
         font-size: 4.5em;
     }
 
     h2 {
         font-size: 1.8em;
+    }
+}
+
+@media (min-width: 1400px) {
+    #welcome h1 {
+        font-size: 8em;
+    }
+
+    #welcome {
+        margin-top: 150px;
+    }
+
+    #development {
+        margin-top: 60px;
     }
 }
