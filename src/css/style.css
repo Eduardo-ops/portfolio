@@ -74,13 +74,18 @@ body, html {
 }
 
 .row-custom {
-    margin-top: -80px;
+    justify-content: center;
+    margin-top: -50px;
 }
 
 .year-formatinons, .age-experience {
     color: #FF8C00;
     font-weight: bold;
     font-size: 1.2em;
+}
+
+#development, #formation, #skills, #formation, #experience, #contact{
+    margin-top: 140px;
 }
 
 #formation h2 {
@@ -127,12 +132,12 @@ body, html {
     font-weight: bold;
 }
 
-footer{
+footer {
     background: #000;
     text-align: center;
 }
 
-footer p{
+footer p {
     font-size: 1em;
     font-weight: 200;
 }
@@ -148,7 +153,7 @@ footer p{
     src: url(../../Fontes/JonahAFYL-Light.ttf);
 }
 
-h1{
+h1 {
     border-bottom: 2px solid #FF8C00;
     text-transform: uppercase;
     margin-bottom: 80px;
@@ -206,6 +211,7 @@ p {
 @media (min-width: 375px) and (max-width: 576px) {
     #welcome h1 {
         font-size: 4em;
+        margin-bottom: 40px;
     }
 
     #welcome p {
@@ -231,15 +237,15 @@ p {
     }
 
     #welcome {
-        padding-bottom: 80px;
+        margin-top: 80px;
     }
 
     .formation-content-text {
-        margin-top: -80px;
+        margin-top: 20px;
     }
 
     .row-custom {
-        margin-top: 0px;
+        margin-top: 100px;
     }
 
     #contact h2 {
@@ -275,10 +281,15 @@ p {
     h2 {
         font-size: 1.2em;
     }
+
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+    #welcome {
+        margin-top: 120px;
+    }
+
     #welcome h1 {
         font-size: 4em;
     }
@@ -299,6 +310,10 @@ p {
         font-size: 2.1em;
     }
 
+    .row-custom {
+        margin-top: -10px;
+    }
+
     h1 {
         font-size: 3em;
     }
@@ -310,12 +325,20 @@ p {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    #welcome {
+        margin-top: 100px;
+    }
+
     h1 {
         font-size: 4.5em;
     }
 
     h2 {
         font-size: 1.8em;
+    }
+
+    .row-custom {
+        margin-top: -10px;
     }
 }
 
@@ -326,7 +349,7 @@ p {
     }
 
     #welcome {
-        margin-top: 90px;
+        margin-top: 120px;
     }
 
     h1 {
@@ -336,6 +359,10 @@ p {
     h2 {
         font-size: 1.8em;
     }
+
+    .row-custom {
+        margin-top: -10px;
+    }
 }
 
 @media (min-width: 1400px) {
@@ -344,10 +371,10 @@ p {
     }
 
     #welcome {
-        margin-top: 150px;
+        margin-top: 130px;
     }
 
     #development {
-        margin-top: 60px;
+        margin-top: 80px;
     }
 }
