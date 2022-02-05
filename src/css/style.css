@@ -1,62 +1,11 @@
+/* Estrutura */
 body, html {
     height: 100%;
     background-color: #E0FFFF;
 }
 
-@font-face {
-    font-family: "Xhers";
-    src: url(../../Fontes/Xhers\ Regular.otf);
-}
-
-@font-face {
-    font-family: "Jonah";
-    src: url(../../Fontes/JonahAFYL-Light.ttf);
-}
-
 .navbar {
     background: rgba(189, 94, 56, 0.930);
-}
-
-.navbar .navbar-nav .nav-link {
-    margin-right: 15px;
-    letter-spacing: 0.05rem;
-}
-
-.navbar .navbar-nav .nav-link:hover {
-    color: #fff;
-}
-
-.box-welcome {
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: top;
-    padding-bottom: 160px;
-}
-
-.box-skills {
-    background-image: url(../../imagens/development\(1\).jpg);
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    margin-top: 80px;
-}
-
-.skill-image {
-    width: 50px;
-    height: 50px;
-}
-
-#skills h3 {
-    font-size: 1.2em;
-    font-weight: 300;
-}
-
-.content-center {
-    text-align: center;
 }
 
 .navbar-brand {
@@ -64,6 +13,7 @@ body, html {
 }
 
 #welcome h1 {
+    border-bottom: none;
     margin-top: 60px;
     text-transform: uppercase;
     font-size: 8em;
@@ -77,47 +27,8 @@ body, html {
     font-weight: 600;
 }
 
-#welcome h2 {
-    color: #FFF5EE;
-    font-weight: 400;
-    font-family: Helvetica, sans-serif;
-}
-
-p {
-    font-size: 1.2em;
-    color: #404044;
-}
-
-#welcome a {
-    text-decoration: none;
-    margin-right: 20px;
-    font-weight: 6600;
-}
-
-.link-info {
-    font-size: 1.2em;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: -0.02;
-    color: #404044;
-}
-
-.link-info:hover {
-    color: #FF8C00;
-    padding-bottom: 8px;
-    border-bottom: 1px solid #FF8C00;
-}
-
-.row-custom {
-    margin-top: -80px;
-}
-
-
-#development h1 {
-    border-bottom: 2px solid #FF8C00;
-    text-transform: uppercase;
-    letter-spacing: -0.04em;
-    color: #FF8C00;
+#welcome {
+    padding-bottom: 160px;
 }
 
 .btn-custom {
@@ -142,11 +53,14 @@ p {
     color: #fff;
 }
 
-#skills h1 {
-    border-bottom: 2px solid #FF8C00;
-    text-transform: uppercase;
-    letter-spacing: -0.04em;
-    color: #FF8C00;
+.box-skills {
+    background-image: url(../../imagens/development\(1\).jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-top: 80px;
 }
 
 .skill-item {
@@ -154,11 +68,13 @@ p {
     text-align: center;
 }
 
-#formation h1 {
-    border-bottom: 2px solid #FF8C00;
-    text-transform: uppercase;
-    letter-spacing: -0.04em;
-    color: #FF8C00;
+#skills h3 {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.row-custom {
+    margin-top: -80px;
 }
 
 .year-formatinons, .age-experience {
@@ -173,13 +89,6 @@ p {
     font-weight: bold;
     padding-top: 10px;
     margin-bottom: 0;
-}
-
-#experience h1 {
-    border-bottom: 2px solid #FF8C00;
-    text-transform: uppercase;
-    letter-spacing: -0.04em;
-    color: #FF8C00;
 }
 
 #experience h2 {
@@ -207,22 +116,8 @@ p {
     transition: all 0.5s;
 }
 
-.box-contact img {
-    height: 116px;
-    border-radius: 20px 20px 0px 0px;
-}
-
 .box-contact p {
     font-size: 1em;
-}
-
-
-#contact h1 {
-    border-bottom: 2px solid #FF8C00;
-    text-transform: uppercase;
-    margin-bottom: 80px;
-    letter-spacing: -0.04em;
-    color: #FF8C00;
 }
 
 #contact h2 {
@@ -230,11 +125,6 @@ p {
     text-transform: uppercase;
     font-size: 1.2em;
     font-weight: bold;
-}
-
-#contact a {
-    text-decoration: none;
-    border-radius: 20px;
 }
 
 footer{
@@ -246,6 +136,72 @@ footer p{
     font-size: 1em;
     font-weight: 200;
 }
+
+/* Tipografia */
+@font-face {
+    font-family: "Xhers";
+    src: url(../../Fontes/Xhers\ Regular.otf);
+}
+
+@font-face {
+    font-family: "Jonah";
+    src: url(../../Fontes/JonahAFYL-Light.ttf);
+}
+
+h1{
+    border-bottom: 2px solid #FF8C00;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+    letter-spacing: -0.04em;
+    color: #FF8C00;
+}
+
+p {
+    font-size: 1.2em;
+    color: #404044;
+}
+
+/* Links */
+#welcome a {
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 6600;
+}
+
+.link-info {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: -0.02;
+    color: #404044;
+}
+
+.link-info:hover {
+    color: #FF8C00;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #FF8C00;
+}
+
+#contact a {
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+/* Listas, imagens e outros */
+.navbar .navbar-nav .nav-link {
+    margin-right: 15px;
+    letter-spacing: 0.05rem;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.skill-image {
+    width: 50px;
+    height: 50px;
+}
+
 
 @media (min-width: 375px) and (max-width: 576px) {
     #welcome h1 {
@@ -274,7 +230,7 @@ footer p{
         font-size: 0.8em;
     }
 
-    .box-welcome {
+    #welcome {
         padding-bottom: 80px;
     }
 
